@@ -2,7 +2,7 @@
 
 A browser-based **BROOD–BREWED** identification task implemented in JavaScript and [jsPsych](https://www.jspsych.org/) for an undergraduate coursework project at the University of Edinburgh (2025). This repository contains a **shortened, non-research portfolio demonstration** prepared in 2026, not a completed perceptual study.
 
-**[Open the project page](https://7riangle.github.io/svlr-speech-perception/demo)** · [Personal website](https://moses-im.netlify.app/)
+**[Open the project page](https://7riangle.github.io/svlr-speech-perception/demo/original.html)** · [Personal website](https://moses-im.netlify.app/)
 
 > The GitHub Pages link will work only after this repository is published under the suggested name `svlr-speech-perception` and Pages has been enabled.
 
