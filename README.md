@@ -2,9 +2,7 @@
 
 A browser-based **BROOD–BREWED** identification task implemented in JavaScript and [jsPsych](https://www.jspsych.org/) for an undergraduate coursework project at the University of Edinburgh (2025). This repository contains a **shortened, non-research portfolio demonstration** prepared in 2026, not a completed perceptual study.
 
-**[Open the project page](https://7riangle.github.io/svlr-speech-perception/demo/original.html)** · [Personal website](https://moses-im.netlify.app/)
-
-> The GitHub Pages link will work only after this repository is published under the suggested name `svlr-speech-perception` and Pages has been enabled.
+**[Open the project page](https://7riangle.github.io/svlr-speech-perception/demo/original.html)**
 
 ## Research question and design
 
@@ -37,17 +35,17 @@ From this repository's root directory:
 python3 -m http.server 8000
 ```
 
-Open `http://localhost:8000/`, then select **Try the experiment**. Use a desktop or laptop with stereo headphones or earphones. Audio should be served over HTTP(S), not opened directly as a `file://` page.
+Open `http://localhost:8000/`. The page will automatically redirect to `demo/original.html`, where the jsPsych experiment begins. Use a desktop or laptop with stereo headphones or earphones. Audio should be served over HTTP(S), not opened directly as a `file://` page.
 
 ## Files
 
 ```text
-index.html                 Project overview, design, caveats, references
-demo/index.html            Demo introduction and trial counts
-demo/original.html         Loads jsPsych and the experiment script
-demo/brood_brewed.js       Demonstration sequence and responses
-demo/audio/                Six third-party screening WAVs + two author recordings + generated beep
-third_party/               Required attribution and BSD 2-Clause licence for screening WAVs
+README.md                 Project documentation, methods, limitations, and references
+index.html                Redirects visitors directly to the experiment
+demo/original.html        Loads jsPsych and launches the experiment
+demo/brood_brewed.js      Experimental procedure, trial sequence, and responses
+demo/audio/               Six third-party screening WAVs, two author recordings, and a generated beep
+third_party/              Attribution and BSD 2-Clause licence for the screening stimuli
 ```
 
 Only the two placeholder recordings actually used by the demo are included. The source ZIP contained seven numbered copies for each context; hashes confirmed that each set's seven copies was identical, rather than seven separate acoustic steps. Unused `booed.wav` and `noise_calib_stim.wav` are omitted.
@@ -70,8 +68,6 @@ The jsPsych library and plugins are loaded through an external CDN and are not c
 
 - Ferragne, E., Bedoin, N., Boulenger, V., & Pellegrino, F. (2011). The perception of a derived contrast in Scottish English. *Proceedings of ICPhS XVII*, 667–670.
 - Woods, K. J. P., Siegel, M. H., Traer, J., & McDermott, J. H. (2017). Headphone screening to facilitate web-based auditory experiments. *Attention, Perception, & Psychophysics, 79*, 2064–2072. https://doi.org/10.3758/s13414-017-1361-2
-
-Other linguistic and prosodic references appear on the project overview page.
 
 ## Rights
 
